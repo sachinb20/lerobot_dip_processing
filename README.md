@@ -11,7 +11,18 @@ This guide explains how to set up and run the LeRobot recording script with Digi
 
 ---
 
-## 🚀 Installation Steps
+## � Dataset
+
+The dataset used for this project can be downloaded from Hugging Face:
+
+**Download:** [https://huggingface.co/datasets/sach088/dino_touch_and_go_3_pts](https://huggingface.co/datasets/sach088/dino_touch_and_go_3_pts)
+
+**Visualize:** You can also visualize the dataset online here:
+[https://huggingface.co/spaces/lerobot/visualize_dataset?path=%2Fsach088%2Fdino_touch_and_go_3_pts%2Fepisode_0](https://huggingface.co/spaces/lerobot/visualize_dataset?path=%2Fsach088%2Fdino_touch_and_go_3_pts%2Fepisode_0)
+
+---
+
+## �🚀 Installation Steps
 
 ### 1. Clone LeRobot Repository
 
@@ -73,7 +84,7 @@ lerobot/
 
 ### 6. Download Policy Weights
 
-Download the pre-trained policy from Hugging Face:
+We have uploaded the policy weights to Hugging Face:
 
 ```bash
 # Using huggingface-cli
