@@ -2,7 +2,7 @@
 
 This guide explains how to set up and run the LeRobot recording script with Digital Image Processing (DIP) enhancements.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.10+
 - Conda or virtual environment
@@ -11,7 +11,7 @@ This guide explains how to set up and run the LeRobot recording script with Digi
 
 ---
 
-## � Dataset
+##  Dataset
 
 The dataset used for this project can be downloaded from Hugging Face:
 
@@ -22,7 +22,7 @@ The dataset used for this project can be downloaded from Hugging Face:
 
 ---
 
-## �🚀 Installation Steps
+## Installation Steps
 
 ### 1. Clone LeRobot Repository
 
@@ -96,7 +96,7 @@ huggingface-cli download sach088/dino_touch_and_go_3_pts --local-dir ./policies/
 
 ---
 
-## 🎮 Running the Script
+## Running the Script
 
 ### Basic Command
 
@@ -128,7 +128,7 @@ python lerobot_record_dip.py \
 
 ---
 
-## 🎨 DIP Method Options
+##  DIP Method Options
 
 Replace `--dip.method=clahe` with one of the following:
 
@@ -196,7 +196,7 @@ Replace `--dip.method=clahe` with one of the following:
 
 ---
 
-## 📝 Complete Example Commands
+## Complete Example Commands
 
 ### Example 1: Recording with CLAHE Enhancement
 ```bash
@@ -295,7 +295,7 @@ python lerobot_record_dip.py \
 
 ---
 
-## 📊 Camera Suffix Guide
+##  Camera Suffix Guide
 
 The `--dip.camera_suffix` parameter is **optional** and controls which cameras get processed:
 
